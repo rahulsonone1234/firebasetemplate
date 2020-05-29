@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>upload data to firebase</title>
+</head>
+<body>
+<center>
+    <h2>name:</h2>
+    <input type="text" id="name" required="required"><br>
+    <h2>Gender:</h2>
+    <input type="text" id="gender" required="required"><br>
+    <h2>Country:</h2>
+    <input type="text" id="country" required="required"><br>
+
+    <button type="button" onclick="insert();">Upload</button>
+</center>
+
+<a href="RetriveData.html">Retrive Data</a>
+<a href="uploadData.html">Upload Data</a>
+<a href="uploadImage.html">Upload Image</a>
+<a href="createAccount.html">createAccount</a>
+<a href="login.html">login</a>
+<a href="google-popup.html">google-popup</a>
+<a href="google-redirect.html">google redirect</a>
+<a href="index.html">index</a>
+<a href="privacypolicy.html">privacypolicy</a>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+            //key require todo
+ 
+ 
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/upload.js" type="text/javascript"></script>
+</body>
+</html>
